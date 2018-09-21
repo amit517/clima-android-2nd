@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -66,5 +67,14 @@
 
             />
     </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/GoogleMapButton"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:layout_alignStart="@+id/locationTV"
+        android:layout_alignTop="@+id/changeCityButton"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/download" />
 
 </RelativeLayout>
